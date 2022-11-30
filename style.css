@@ -115,7 +115,7 @@ button {
 }
 
 .image-place {
-    margin: 50px;
+    margin: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,6 +129,7 @@ button {
     width: 150px;
     border-radius: 20px;
     cursor: pointer;
+    margin-left: 100px;
 }
 
 .box:hover {
@@ -139,6 +140,7 @@ button {
 .sometext {
     width: 150px;
     padding-top: 5px;
+    margin-left: 100px;
 }
 
 .quote {
@@ -153,12 +155,21 @@ button {
     justify-content: center;
 }
 
-figure {
+blockquote > h3 {
+    font-family: 'Roboto Light Italic';
+    font-size: 36px;
     margin: 0 20%;
+    padding-top: 40px;
 }
 
-figcaption {
-    position: right;
+small {
+    display: flex;
+    justify-content: flex-end;
+    align-self: end;
+    color: #1f2937;
+    margin: 0 20%;
+    margin-bottom: 50px;
+    font-weight: bolder
 }
 
 .cta {
